@@ -1,8 +1,8 @@
 module.exports = {
   port: process.env.PORT || 8080,
   db: {
-    prod: process.env.DATABASE_URL || 'mongodb://localhost/stackoverflow-clone',
-    test: 'mongodb://localhost/stackoverflow-test',
+    prod: process.env.DATABASE_URL || 'mongodb+srv://sanvinvidsta:sanvinvidsta@cluster0.fgcwa.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+    test: 'mongodb+srv://sanvinvidsta:sanvinvidsta@cluster0.fgcwa.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
     options: {
       useNewUrlParser: true,
       useUnifiedTopology: true,
